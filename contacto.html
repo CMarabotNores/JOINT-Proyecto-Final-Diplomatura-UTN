@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="CSS/normalize.css">
-    <link rel="stylesheet" href="CSS/JOINT.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
 </head>
 
 <body>
@@ -22,8 +22,7 @@
             <a href="contacto.html">Contacto</a>
         </nav>
         <section class="textos-header">
-            <h1>JOINT</h1>
-            <h2>Diseñemos juntos el futuro</h2>
+            <h1>CONTACTO</h1>
         </section>
         <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                 style="height: 100%; width: 100%;">
@@ -33,21 +32,35 @@
 
     </header>
     <main>
-        <section class="contenedor">
-            <h2 class="titulo">BUILDING INFORMATION MODELING</h2>
-            <div class="contenedor-home">
-                <img src="IMG/Home2.jpg" alt="imagen 1" class="imagen-home">
-                <div class="contenido-textos">
-                    <h3><span>1</span>Por que elegir JOINT</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus soluta vitae voluptate
-                        tempore, maxime porro enim praesentium ab voluptates reiciendis accusamus harum facere, quas
-                        rerum!</p>
-                    <h3><span>2</span>Aumentamos tu productividad</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iusto quae vel consequuntur debitis
-                        hic consectetur repellendus harum, explicabo incidunt! Praesentium maxime sed pariatur
-                        reiciendis.</p>
+        <section>
+            <h2 class="titulo">CONTACTANOS Y HAGAMOS TUS IDEAS REALIDAD!!</h2>
+            <form>
+                <h3>Contacto</h3>
+
+                <div class="input-group">
+
+                    <p>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre">
+                    </p>
+                    <p>
+                        <label for="phone">Telefono</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </p>
+                    <p>
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="20" rows="5" placeholder="Mensaje"></textarea>
+                    </p>
+                    <p>
+                        <input class="btn" type="submit" value="Enviar">
+                    </p>
+
                 </div>
-            </div>
+            </form>
 
         </section>
     </main>

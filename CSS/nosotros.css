@@ -127,24 +127,24 @@ footer {
     border-bottom: 1px solid #ccc;
 }
 
-.content.foo {
+.content-foo {
     text-align: center;
 }
 
-.content.foo h4 {
+.content-foo h4 {
     color: #fff;
-    border-bottom: 3px solid #af20d3;
+    border-bottom: 3px solid #2a733c;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.content.foo p {
+.content-foo p {
     color: #ccc;
 }
 
 .titulo-final {
     text-align: center;
-    font-size: 24px;
+    font-size: 17px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
